@@ -1,0 +1,10 @@
+* Dark mode/dark theme (and no toggle or support for light/bright mode)
+* Bootstrap for UI
+* Next.js for the web framework
+* HTML Canvas for graphics
+* TypeScript for easier testing, asserting
+* 90%+ unit test coverage
+* Modular design
+* When user asks for things to be built, concepts of the game should correspond to type and folders and modules in the code, especially for capitalized words, e.g. "the Grid has these properties..."
+* Ultimately will probably deploy on Vercel, but may start off as offline app during early prototype stages
+
