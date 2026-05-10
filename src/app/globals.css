@@ -1,0 +1,40 @@
+:root {
+  color-scheme: dark;
+  --app-bg: #101113;
+  --app-text: #eceff1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: var(--app-bg);
+  color: var(--app-text);
+}
+
+body {
+  font-family: var(--bs-font-sans-serif);
+}
+
+.app-shell {
+  width: 100vw;
+  height: 100vh;
+  background: #101113;
+}
+
+.hex-grid-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+  touch-action: none;
+}
+
+.hex-grid-canvas:active {
+  cursor: grabbing;
+}
